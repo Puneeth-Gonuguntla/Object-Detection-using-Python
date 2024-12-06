@@ -1,5 +1,5 @@
-# YOLOv8: Next-Generation Object Detection and Image Segmentation 🚀
-Welcome to the YOLOv8 repository! This project provides a state-of-the-art implementation of YOLO (You Only Look Once) Version 8—a high-performance, real-time object detection and segmentation framework.
+# YOLO: Next-Generation Object Detection and Image Segmentation 🚀
+Welcome to the YOLOv8 repository! This project provides a state-of-the-art implementation of YOLO (You Only Look Once) - a high-performance, real-time object detection and segmentation framework.
 
 Developed by our team, YOLOv8 offers improved accuracy, faster inference, and enhanced versatility compared to its predecessors. Whether you're a researcher, developer, or enthusiast, this repository is your one-stop destination for leveraging YOLOv8 in your projects.
 

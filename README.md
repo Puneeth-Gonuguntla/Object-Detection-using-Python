@@ -15,10 +15,10 @@ Framework Support: Seamless integration with PyTorch and ONNX for diverse deploy
 Follow these steps to set up the repository:
 
 1. Clone the Repository
-bash
-Copy code
-git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)
-cd yolov8
+a. bash
+b. Copy code
+c. git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)
+d. cd yolov8
 
 2. Install Dependencies
 Use pip to install the required Python packages:

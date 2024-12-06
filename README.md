@@ -17,7 +17,7 @@ Follow these steps to set up the repository:
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/Puneeth-Gonuguntla/yolov8.git
+git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)
 cd yolov8
 
 2. Install Dependencies

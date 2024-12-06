@@ -14,7 +14,7 @@ Framework Support: Seamless integration with PyTorch and ONNX for diverse deploy
 # 📦 Installation
 Follow these steps to set up the repository:
 
-1. Clone the Repository
+1. Clone the Repository:
 a. bash
 b. Copy code
 c. git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)

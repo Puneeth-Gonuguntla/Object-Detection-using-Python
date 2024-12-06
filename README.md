@@ -14,43 +14,38 @@ Framework Support: Seamless integration with PyTorch and ONNX for diverse deploy
 # 📦 Installation
 Follow these steps to set up the repository:
 
-1. Clone the Repository:
-a. bash
-b. Copy code
-c. git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)
-d. cd yolov8
+## Clone the Repository:
+### bash
+### Copy code
+### git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)
+### cd yolov8
 
-2. Install Dependencies
-Use pip to install the required Python packages:
-bash
-Copy code
-pip install -r requirements.txt
+## Install Dependencies
+### Use pip to install the required Python packages:
+### bash
+### Copy code
+### pip install -r requirements.txt
 
-3. (Optional) Set Up a Virtual Environment
-For better dependency management, consider using a virtual environment:
-bash
-Copy code
-python -m venv yolov8-env
-source yolov8-env/bin/activate  # On Windows: yolov8-env\Scripts\activate
+
 
 # 🚀 Getting Started
-1. Run Pretrained Models
-Use the pretrained YOLOv8 models to detect objects in an image:
-bash
-Copy code
-python detect.py --weights yolov8n.pt --source path/to/image.jpg
+## 1. Run Pretrained Models
+### Use the pretrained YOLOv8 models to detect objects in an image:
+### bash
+### Copy code
+### python detect.py --weights yolov8n.pt --source path/to/image.jpg
 
-2. Train on Custom Datasets
-Fine-tune YOLOv8 on your dataset:
-bash
-Copy code
-python train.py --data data.yaml --weights yolov8n.pt --epochs 50
+## Train on Custom Datasets
+### Fine-tune YOLOv8 on your dataset:
+### bash
+### Copy code
+### python train.py --data data.yaml --weights yolov8n.pt --epochs 50
 
-3. Export Models for Deployment
-Export trained models to ONNX, TensorFlow, or other formats:
-bash
-Copy code
-python export.py --weights yolov8n.pt --include onnx
+## Export Models for Deployment
+### Export trained models to ONNX, TensorFlow, or other formats:
+### bash
+### Copy code
+### python export.py --weights yolov8n.pt --include onnx
 
 # 📊 Performance Benchmarks
 Model	Parameters	mAP (COCO)	Inference Speed

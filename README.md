@@ -15,38 +15,43 @@ Framework Support: Seamless integration with PyTorch and ONNX for diverse deploy
 Follow these steps to set up the repository:
 
 ## Clone the Repository:
-### bash
-### Copy code
-### git clone [https://github.com/Puneeth-Gonuguntla/yolov8.git](https://github.com/Puneeth-Gonuguntla/Object-Detection-using-Python.git)
-### cd yolov8
-
+```
+bash
+Copy code
+https://github.com/Puneeth-Gonuguntla/Object-Detection-using-YOLO.git
+cd yolov8
+```
 ## Install Dependencies
-### Use pip to install the required Python packages:
-### bash
-### Copy code
-### pip install -r requirements.txt
-
+```
+Use pip to install the required Python packages:
+bash
+Copy code
+pip install -r requirements.txt
+```
 
 
 # 🚀 Getting Started
 ## 1. Run Pretrained Models
-### Use the pretrained YOLOv8 models to detect objects in an image:
-### bash
-### Copy code
-### python detect.py --weights yolov8n.pt --source path/to/image.jpg
-
+```
+Use the pretrained YOLOv8 models to detect objects in an image:
+bash
+Copy code
+python detect.py --weights yolov8n.pt --source path/to/image.jpg
+```
 ## Train on Custom Datasets
-### Fine-tune YOLOv8 on your dataset:
-### bash
-### Copy code
-### python train.py --data data.yaml --weights yolov8n.pt --epochs 50
-
+```
+Fine-tune YOLOv8 on your dataset:
+bash
+Copy code
+python train.py --data data.yaml --weights yolov8n.pt --epochs 50
+```
 ## Export Models for Deployment
-### Export trained models to ONNX, TensorFlow, or other formats:
-### bash
-### Copy code
-### python export.py --weights yolov8n.pt --include onnx
-
+```
+Export trained models to ONNX, TensorFlow, or other formats:
+bash
+Copy code
+python export.py --weights yolov8n.pt --include onnx
+```
 # 📊 Performance Benchmarks
 Model	Parameters	mAP (COCO)	Inference Speed
 1. YOLOv8-nano	4.1M	51.2%	5ms/image
@@ -57,6 +62,7 @@ Model	Parameters	mAP (COCO)	Inference Speed
 # 📂 Repository Structure
 bash
 Copy code
+```
 yolov8/
 ├── data/                # Dataset configurations
 ├── models/              # YOLOv8 model architecture definitions
@@ -64,6 +70,7 @@ yolov8/
 ├── pretrained/          # Pretrained weights
 ├── outputs/             # Inference and training results
 └── README.md            # Repository documentation
+```
 # 📚 Resources
 1. YOLO Reaserch by Joseph Redmon and his team.
 2. Ultralytics Documentation from MIT and Stanford Collaborated reaserch.  

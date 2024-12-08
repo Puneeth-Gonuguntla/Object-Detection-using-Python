@@ -73,4 +73,4 @@ yolov8/
 ```
 # 📚 Resources
 1. YOLO Reaserch by Joseph Redmon and his team.
-2. Ultralytics Documentation from MIT and Stanford Collaborated reaserch.  
+2. Ultralytics Documentation from Glenn Jocher's team Collaborated reaserch. 
